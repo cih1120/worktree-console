@@ -1,0 +1,82 @@
+=== first card selected
+                                                                      │                                            ✕
+ ▐▛███▛█   Claude Code v2.1.294                                       │q: 待回覆 3  w: 全部 5  e: 封存 0  r: 閒置 0
+▝▜██████▀  Opus 5.5 · API Usage Billing                               │─────────────━━━━━━━━━────────────────────────
+ ▝▝   ▝▝   /private/tmp/demo/wtcfixture.zpd35S                        │── acme-web ────────────────────────── 共 2 個
+                                                                      │╔════════════════════════════════════════════╗
+▎ Auto mode is now Claude Code's default permission mode.             │║  1: ↩ 已回覆  empty-state                  ║
+▎ Auto mode lets Claude handle permission prompts automatically.      │║  The empty-state copy is ready…            ║
+▎ Claude checks each tool call for risky actions and prompt injection │║  實作中              Clarify the empty s…  ║
+▎ before executing, runs the ones it assesses as lower-risk, and      │╚════════════════════════════════════════════╝
+▎ blocks the rest.                                                    │╭────────────────────────────────────────────╮
+▎ https://code.claude.com/docs/en/permission-modes                    ││  2: ◆ 待回答  upload-retry                 │
+                                                                      ││  Which retry policy should we use?         │
+❯ /focus-show invoice-export c89z1w                                   ││  實作中              Add retry to the up…  │
+focus-show: ### 🔐 invoice-export 等你授權                            │╰────────────────────────────────────────────╯
+                                                                      │
+▎ Bash                                                                │── billing-api ─────────────────────── 共 2 個
+▎ mkdir -p /tmp/demo/export                                           │╭────────────────────────────────────────────╮
+                                                                      ││  3: ✳ 工作中  currency-format              │
+                                                                      ││  Format currency totals                    │
+                                                                      ││  實作中              Format currency tot…  │
+                                                                      │╰────────────────────────────────────────────╯
+                                                                      │╭────────────────────────────────────────────╮
+                                                                      ││  4: ◆ 待授權  invoice-export               │
+                                                                      ││  Bash mkdir -p /tmp/demo/export            │
+                                                                      ││  實作中              Export monthly invo…  │
+                                                                      │╰────────────────────────────────────────────╯
+                                                                      │
+                                                                      │── docs-site ───────────────────────── 共 1 個
+                                                                      │╭────────────────────────────────────────────╮
+                                                                  [-] ││  5: ✳ 工作中  search-guide                 │
+── 待回覆 1/3 ───────────────────────────────────────────────────     ││  Improve the search guide                  │
+  │ ◆ 待授權  invoice-export                                          ││  實作中              Improve the search …  │
+  │ Bash mkdir -p /tmp/demo/export                                    │╰────────────────────────────────────────────╯
+  │ 9: 顯示問題 · 8: 延後處理                                         │
+  │ 其他 1: empty-state ·  2: upload-retry ·  0: 面板                 │ qwer 切分頁 · 1-9,0/↑↓ 選卡片
+                                                                      │
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+❯  
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  ⏵⏵ auto mode on (shift+tab to cycle) · ← for agents · 工作中 2 · 已回覆 1
+=== after Down
+                                                                      │                                            ✕
+ ▐▛███▛█   Claude Code v2.1.294                                       │q: 待回覆 3  w: 全部 5  e: 封存 0  r: 閒置 0
+▝▜██████▀  Opus 5.5 · API Usage Billing                               │─────────────━━━━━━━━━────────────────────────
+ ▝▝   ▝▝   /private/tmp/demo/wtcfixture.zpd35S                        │── acme-web ────────────────────────── 共 2 個
+                                                                      │╭────────────────────────────────────────────╮
+▎ Auto mode is now Claude Code's default permission mode.             ││  1: ↩ 已回覆  empty-state                  │
+▎ Auto mode lets Claude handle permission prompts automatically.      ││  The empty-state copy is ready…            │
+▎ Claude checks each tool call for risky actions and prompt injection ││  實作中              Clarify the empty s…  │
+▎ before executing, runs the ones it assesses as lower-risk, and      │╰────────────────────────────────────────────╯
+▎ blocks the rest.                                                    │╔════════════════════════════════════════════╗
+▎ https://code.claude.com/docs/en/permission-modes                    │║  2: ◆ 待回答  upload-retry                 ║
+                                                                      │║  Which retry policy should we use?         ║
+❯ /focus-show invoice-export c89z1w                                   │║  實作中              Add retry to the up…  ║
+focus-show: ### 🔐 invoice-export 等你授權                            │╚════════════════════════════════════════════╝
+                                                                      │
+▎ Bash                                                                │── billing-api ─────────────────────── 共 2 個
+▎ mkdir -p /tmp/demo/export                                           │╭────────────────────────────────────────────╮
+                                                                      ││  3: ✳ 工作中  currency-format              │
+                                                                      ││  Format currency totals                    │
+                                                                      ││  實作中              Format currency tot…  │
+                                                                      │╰────────────────────────────────────────────╯
+                                                                      │╭────────────────────────────────────────────╮
+                                                                      ││  4: ◆ 待授權  invoice-export               │
+                                                                      ││  Bash mkdir -p /tmp/demo/export            │
+                                                                      ││  實作中              Export monthly invo…  │
+                                                                      │╰────────────────────────────────────────────╯
+                                                                      │
+                                                                      │── docs-site ───────────────────────── 共 1 個
+                                                                      │╭────────────────────────────────────────────╮
+                                                                  [-] ││  5: ✳ 工作中  search-guide                 │
+── 待回覆 1/3 ───────────────────────────────────────────────────     ││  Improve the search guide                  │
+  │ ◆ 待授權  invoice-export                                          ││  實作中              Improve the search …  │
+  │ Bash mkdir -p /tmp/demo/export                                    │╰────────────────────────────────────────────╯
+  │ 9: 顯示問題 · 8: 延後處理                                         │
+  │ 其他 1: empty-state ·  2: upload-retry ·  0: 面板                 │ qwer 切分頁 · 1-9,0/↑↓ 選卡片
+                                                                      │
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+❯  
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  ⏵⏵ auto mode on (shift+tab to cycle) · ← for agents · 工作中 2 · 已回覆 1
