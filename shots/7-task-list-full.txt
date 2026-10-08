@@ -1,0 +1,23 @@
+登入流程整理（f5676586-dc9c-4879-b5ca-c0176274b5f3）
+revision 7
+▶ 1 進行 · ○ 1 待辦 · ★ 1 未核對
+
+▶ 登入體驗 1/2 — 改善登入流程
+├─ ✓ 改善錯誤訊息 ★
+╰─ ▶ 新增 SSO 按鈕 — 接上登入操作
+
+○ 回歸驗證 0/1 — 確認登入邊界
+╰─ ○ 新增端到端驗證 — 涵蓋重試情境
+已完成 1 項（task-todos --include-completed 展開）
+待核對：72b07b4e-e317-4103-90cc-a5cc4e802418（errors）report.md
+
+時間線（最近 20 筆已提交事件）
+2026-10-08T15:08:31.597Z r0 建立任務
+2026-10-08T15:08:31.759Z r1 item add（login）
+2026-10-08T15:08:31.876Z r2 item add（errors）
+2026-10-08T15:08:31.994Z r3 item add（sso）
+2026-10-08T15:08:32.111Z r4 item add（quality）
+2026-10-08T15:08:32.234Z r5 item add（e2e）
+2026-10-08T15:08:32.353Z r6 report submit（72b07b4e-e317-4103-90cc-a5cc4e802418）
+2026-10-08T15:08:32.474Z r7 report accept（72b07b4e-e317-4103-90cc-a5cc4e802418）
+另有 0 筆較早事件未展開；0 筆已封存。完整歷史：task history --limit 50 --before-revision <revision>
